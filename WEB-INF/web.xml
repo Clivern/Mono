@@ -5,12 +5,12 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>home-path</servlet-name>
+        <servlet-name>HomePage</servlet-name>
         <servlet-class>com.clivern.Home</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>home-path</servlet-name>
+        <servlet-name>HomePage</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
 

@@ -1,21 +1,23 @@
 package com.clivern;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
 
-public class Home extends HttpServlet{
+public class HelloWorld extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws IOException{
+    throws IOException, ServletException
+    {
+        response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html>");
+        out.println("<head>");
+        out.println("<title>Hello World!</title>");
+        out.println("</head>");
         out.println("<body>");
-        out.println("<h1>Hello Servlet Get</h1>");
+        out.println("<h1>Hello World!</h1>");
         out.println("</body>");
         out.println("</html>");
     }
-
 }
