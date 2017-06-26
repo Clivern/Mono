@@ -1,17 +1,17 @@
 ```
 
 						Mono
-	                            A Simple Java Servlet Example		    
+	                            A Simple Java Servlet Example
 
 ~ Install Tomcat
 ----------------
-./bin/install_tomcat.sh remote_server_user remote_server_ip
-eg. ./bin/install_tomcat.sh root 104.131.138.130
+-> bash ./bin/install_tomcat.sh remote_server_user remote_server_ip
+-> bash ./bin/install_tomcat.sh root 104.131.138.130
 
 ~ Deploy Servlet
 ----------------
-./bin/deploy.sh remote_server_user remote_server_ip
-eg. ./bin/install_tomcat.sh root 104.131.138.130
+-> bash ./bin/deploy.sh remote_server_user remote_server_ip
+-> bash ./bin/deploy.sh root 104.131.138.130
 
 ~ Acknowledgements
 ------------------
